@@ -1,0 +1,64 @@
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    nav{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    table {
+    border: 2px solid #ddd;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    }
+    .pagination {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+    }
+    
+    .pagination .page-item {
+        margin: 0 5px;
+    }
+    
+    .pagination .page-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+        border-radius: 50%;
+        background: #f8f9fa;
+        border: 1px solid #dee2e6;
+        transition: all 0.3s ease;
+    }
+    
+    .pagination .page-link:hover {
+        background: #007bff;
+        color: #fff;
+    }
+    
+    .pagination .active .page-link {
+        background: #237e3e;
+        color: #fff;
+        border-color: #007bff;
+        font-weight: bold;
+        box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
+    }
+    
+    .pagination .page-item:first-child .page-link,
+    .pagination .page-item:last-child .page-link {
+        border-radius: 50%;
+    }
+    
